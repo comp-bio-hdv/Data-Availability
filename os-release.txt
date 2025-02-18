@@ -1,0 +1,12 @@
+PRETTY_NAME=Ubuntu 22.04.5 LTS
+NAME=Ubuntu
+VERSION_ID=22.04
+VERSION=22.04.5 LTS (Jammy Jellyfish)
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL=httpswww.ubuntu.com
+SUPPORT_URL=httpshelp.ubuntu.com
+BUG_REPORT_URL=httpsbugs.launchpad.netubuntu
+PRIVACY_POLICY_URL=httpswww.ubuntu.comlegalterms-and-policiesprivacy-policy
+UBUNTU_CODENAME=jammy
