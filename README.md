@@ -13,7 +13,7 @@ For convenience, the below installation and execution instructions are also prov
 
 •	Place *__ACTAT_PERMS, newpos.sh, newpos.awk, dist.txt, sl1.sh,  sl2.awk__* and the directory *__gx__* at the same location as the untarred *__HDVDB.tar__*
 
-•	The script *__sl1.sh__* uses *__RNAfold__* – verify ViennaRNA is installed on computer and edit the path to *__RNAfold__* in *__sl1.sh__*
+•	The script *__sl1.sh__* uses *__RNAfold__* – verify ViennaRNA is installed on computer and *__RNAfold__* is located at a directory included in the machine’s *__$PATH__*
 
 •	Place *__sorted_candidates_genotypes_3_7_und.xlsx__* at a location of your convenience on a Windows computer. This spreadsheet is provided for easy reference to the Results section.
 
