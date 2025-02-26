@@ -41,7 +41,7 @@ do
 
 	good="true"
 
-	dotbracket=$(echo $resultrc | /home/users/phd/zakhr/misc/ViennaRNA-2.6.4/src/bin/RNAfold -p0 --noPS | awk 'NR==2 {print $1}')
+	dotbracket=$(echo $resultrc | RNAfold -p0 --noPS | awk 'NR==2 {print $1}')
 
 	left_count=`echo "$dotbracket" | cut -c1-10 | tr -cd '(' | wc -c`
 	right_count=`echo "$dotbracket" | cut -c15-24 | tr -cd ')' | wc -c`
