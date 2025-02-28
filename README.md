@@ -31,13 +31,15 @@ cat dist.txt | while read L; do ./sl1.sh $L; done > candidates.txt &
 
 •	For genotype 3:
 ```bash
-while IFS=$'\t' read -r amber id _ sl1p  _; do awk -v ID="$id" -v AW="$amber" -v SL1P="$sl1p" -v SL2="CCGCAG" -f sl2.awk 1_xx$id; done < ./gx/g3_44 | sort -nk10
+while IFS=$'\t' read -r amber id _ sl1p  _; do awk -v ID="$id" -v AW="$amber" -v SL1P="$sl1p" -v SL2="CCGCAG" -f sl2.awk 1_xx$id; done < ./gx/g3_44 | sort -nk2
 ```
 •	For genotype 7:
 ```bash
-while IFS=$'\t' read -r amber id _ sl1p  _; do awk -v ID="$id" -v AW="$amber" -v SL1P="$sl1p" -v SL2=" CCGAGG" -f sl2.awk 1_xx$id; done < ./gx/g7_44 | sort -nk10
+while IFS=$'\t' read -r amber id _ sl1p  _; do awk -v ID="$id" -v AW="$amber" -v SL1P="$sl1p" -v SL2="CCGAGG" -f sl2.awk 1_xx$id; done < ./gx/g7_44 | sort -nk2
 ```
 •	For undefined genotype:
 ```bash
-while IFS=$'\t' read -r amber id _ sl1p  _; do awk -v ID="$id" -v AW="$amber" -v SL1P="$sl1p" -v SL2="CCGCAG" -f sl2.awk 1_xx$id; done < ./gx/gund_44 | sort -nk10
+while IFS=$'\t' read -r amber id _ sl1p  _; do awk -v ID="$id" -v AW="$amber" -v SL1P="$sl1p" -v SL2="CCGCAG" -f sl2.awk 1_xx$id; done < ./gx/gund_44 | sort -nk2
+while IFS=$'\t' read -r amber id _ sl1p  _; do awk -v ID="$id" -v AW="$amber" -v SL1P="$sl1p" -v SL2="CCGAGG" -f sl2.awk 1_xx$id; done < ./gx/gund_44 | sort -nk2
 ```
+Note: the provided files g3_44, g7_44 and gund_44 are produced by running the script find_44.sh
