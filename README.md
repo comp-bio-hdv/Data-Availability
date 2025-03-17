@@ -1,6 +1,6 @@
 # Materials referred to in Data Accessibility section of our paper entitled "The bioinformatics of the finding that the hepatitis delta virus RNA editing mechanism by a conformational switch exists in genotype 7 in addition to genotype 3"
 
-The archive *__HDVDB.tar__* includes raw data of the 512 HDV strains of various genotypes which appear in the HDV database in the Technical University of Munich (HDVdb).
+The archive *__HDVDB.tar__* includes raw data of the 512 HDV strains of various genotypes which appear in HDVdb.
 Our research was performed over these strains after preparing them to fit our search methodology as detailed in the paper. 
 
 For convenience, the below installation and execution instructions are also provided in *__README.pdf__* in the repository.
