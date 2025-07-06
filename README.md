@@ -15,7 +15,7 @@ For convenience, the below installation and execution instructions are also prov
 
 •	The script *__sl1.sh__* uses *__RNAfold__* – verify ViennaRNA is installed on computer and *__RNAfold__* is located at a directory included in the machine’s *__$PATH__*
 
-•	Place *__sorted_candidates_genotypes_3_7_und.xlsx__* at a location of your convenience on a Windows computer. This spreadsheet is provided for easy reference to the Results section.
+•	Place *__sorted_candidates_genotypes_3_7_und.xlsx__* and *__candidates_genotypes_1_4.xlsx__*at a location of your convenience on a Windows computer. This spreadsheet is provided for easy reference to the Results section. Please note that motif positions specified therein are *__line positions__* rather than *__genome positions__*. 
 
 At the same Linux location of the files from this step, run:
 
